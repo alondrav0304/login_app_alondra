@@ -36,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 width: size.width,
                 height: 200,
                 child: RiveAnimation.asset(
-                  'assets/animated_login_character.riv', // <-- ruta corregida
+                  'assets/animated_login_character.riv',
                   stateMachines: ["Login Machine"],
                   onInit: (artboard) {
                     controller = StateMachineController.fromArtboard(
