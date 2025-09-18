@@ -1,27 +1,25 @@
-# 🐻 Flutter + Rive Login App
+# 🐻 Animated Login App with Rive
 
-Esta es una aplicación móvil desarrollada en **Flutter** que incorpora **animaciones interactivas con Rive** en la pantalla de inicio de sesión.  
-El objetivo es combinar **diseño atractivo** con **animaciones dinámicas**, mientras se aplica buenas prácticas de desarrollo y control de versiones con **GitHub**.
+## Description
+This is a Flutter mobile app featuring a **custom animated login screen**. The app uses **Rive animations** to make user interactions more fun and engaging. When typing in the email or password fields, the character reacts by moving its eyes or covering them with hands. Successful login triggers a happy animation, while invalid credentials trigger a sad animation.
 
----
+## Rive & State Machine
+[Rive](https://rive.app/) is a tool to create interactive animations for apps. A **State Machine** in Rive allows you to control animations programmatically based on user interactions or app states, making the character respond dynamically to input.
 
-## ✨ Qué hace la app
+## Features
+- 📝 Interactive animated login character
+- 📧 Email and password validation
+- 👀 Eye and hand animations based on user input
+- 🔒 Toggle password visibility
 
-- ✅ **Animación de un oso con Rive** que reacciona según la interacción del usuario:
-  - `isChecking`: el oso observa mientras escribes el correo.
-  - `isHandsUp`: el oso se tapa los ojos al escribir la contraseña.
-  - `trigSuccess`: el oso se emociona al hacer login correcto.
-  - `trigFail`: el oso se entristece si falla el login.
-- ✅ Pantalla de **login** con campos de correo y contraseña.
-- ✅ **Mostrar/ocultar contraseña** con un botón de visibilidad.
-- ✅ Uso de **StatefulWidget** para manejar los estados de la animación y del formulario.
-- ✅ Diseño **responsivo** que se adapta al tamaño de la pantalla.
+## Technologies
+- 💙 Flutter
+- 🖋 Dart
+- 🎨 Rive (Rive animations & State Machine)
 
----
+## Course
+**Programming of Mobile Applications**
+**Instructor:** Rodrigo F G
 
-## 🚀 Instalación y uso
-
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/alondrav0304/login_app_alondra/blob/main/lib/screens/login_screen.dart
+## Credits
+Rive animation created by [Ruksar Ahmed](https://dribbble.com/shots/22810177-RiveBear-Login-Animated-Polar-Bear-Flutter-Rive-Widget)
