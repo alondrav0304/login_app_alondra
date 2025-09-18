@@ -1,16 +1,27 @@
-# mi_primer_app
+# 🐻 Flutter + Rive Login App
 
-A new Flutter project.
+Esta es una aplicación móvil desarrollada en **Flutter** que incorpora **animaciones interactivas con Rive** en la pantalla de inicio de sesión.  
+El objetivo es combinar **diseño atractivo** con **animaciones dinámicas**, mientras se aplica buenas prácticas de desarrollo y control de versiones con **GitHub**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Qué hace la app
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ **Animación de un oso con Rive** que reacciona según la interacción del usuario:
+  - `isChecking`: el oso observa mientras escribes el correo.
+  - `isHandsUp`: el oso se tapa los ojos al escribir la contraseña.
+  - `trigSuccess`: el oso se emociona al hacer login correcto.
+  - `trigFail`: el oso se entristece si falla el login.
+- ✅ Pantalla de **login** con campos de correo y contraseña.
+- ✅ **Mostrar/ocultar contraseña** con un botón de visibilidad.
+- ✅ Uso de **StatefulWidget** para manejar los estados de la animación y del formulario.
+- ✅ Diseño **responsivo** que se adapta al tamaño de la pantalla.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Instalación y uso
+
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/alondrav0304/login_app_alondra/blob/main/lib/screens/login_screen.dart
